@@ -1,0 +1,52 @@
+
+body{
+    background-color:grey;
+   
+}
+.container{
+    margin:3%;
+    
+}
+
+
+.title{
+    font-family: 'Aguafina Script', cursive;
+    font-size:5rem;
+    text-align:center;
+    
+}
+
+.article{
+    margin:2% 0%;
+    position:relative;
+    border:.1px grey solid;
+    border-radius: 20px;
+}
+
+.pic{
+    float:right;
+    shape-outside: circle;
+    width:15%;
+    margin:.5% 2% 1% 1%;
+    border-radius:10px;
+}
+
+.link{
+    display:block;
+    text-decoration:none;
+    color:black;
+    padding:1% 1%;
+}
+
+.card h3{
+    display:block;
+    padding:0% 1%;
+}
+
+footer{
+    text-align:center;
+}
+
+
+
+
