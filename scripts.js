@@ -1,7 +1,7 @@
 
 news();
 function news(){
-    fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=6ac72635cc3d4b819d8096e2b6057a5c")
+    fetch("https://newsapi.org/v2/top-headlines?language=en&apiKey=6ac72635cc3d4b819d8096e2b6057a5c")
     .then(response=>response.json()).then(data=>{
         const articles = data.articles;
         //get news articles
